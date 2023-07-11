@@ -32,7 +32,6 @@
               </a>
               <ul class="list-unstyled small">
                 <li class="mb-2">Web site tasarımcısı <a href="https://instagram.com/bertkrc">Berat Karaca</a> .</li>
-                <li class="mb-2">Code licensed <a href="" target="_blank" rel="license noopener">MIT</a>, docs <a href="" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
                 <li class="mb-2">Karaca yazılım</li>
               </ul>
             </div>

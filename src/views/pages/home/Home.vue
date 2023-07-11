@@ -19,7 +19,7 @@
         <span class="card col-12 text-bg-dark"></span>
         <div class="card col-12 d-flex flex-wrap flex-row justify-content-around">
             <div v-for="i in CommnetData">
-                <div class="p-2 card col-3 shadow" style="min-width: 500px; margin: 3%; min-height: 25em;">
+                <div class="p-2 card col-12 shadow" style="min-width: 100%; margin: 3%; min-height: 25em;">
                     <div class="card-body d-flex align-items-center justify-content-center flex-column">
                         <p class="d-flex justify-content-center ">{{ i.Aciklama }}</p>
                         <h5 style="display: block;">{{i.Gonderen}}</h5>
@@ -38,9 +38,9 @@
             <span class="card col-12"></span>
             <ul v-for="blogs in BlogData">
                     <div class="card-body d-flex justify-content-center align-items-center flex-column">
-                    <div class="card col-5 shadow d-flex justify-content-center align-items-center" style="min-width: 50%; height: 30rem; margin: 3%;">
+                    <div class="card col-5 shadow d-flex justify-content-center align-items-center" style="min-width: 70%; height: 30rem; margin: 3%;">
                     <div class="card col-12  " style="max-width: 100%; min-width: 90%; margin-top: 1%;">
-                        <img class="" :src="blogs.image" >
+                        <img class="" style="min-height: 10rem;" :src="blogs.image" >
                     </div>
                 <div class="card-body">
                     {{ blogs.BlogYazi }}

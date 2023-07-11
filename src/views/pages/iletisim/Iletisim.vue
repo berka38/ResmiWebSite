@@ -1,42 +1,17 @@
 <template>
-    <div class="card col-12 d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <div class="card col-7 shadow ">
-            <div class="card-body" >
-                <div class="p-2 card col-7 float-start rounded-0" style="max-height: 30rem;">
-                    <div class="card-body">
-                        <div>
-                            <label for="Email" class="fw-bold">Email</label>
-                            <input class="input-group-text col-12" type="email" id="Email" placeholder="Örnekmail@gmail.com">
-                        </div>
-                        <div class=" d-flex flex-row justify-content-around" style="margin-top: 5%;">
-                            <div class="card col-6"> 
-                                <label class="fw-bold" for="gönderenIsim">isim</label>
-                                <input class="input-group-text" type="text" id="gönderenIsim" placeholder="Ahmet">
-                            </div>
-                            <div class="card col-6">
-                                <label class="fw-bold" for="gönderenSoyisim">Soyisim</label>
-                                <input class="input-group-text" type="text" id="gönderenSoyisim" placeholder="Özdemir">
-                            </div>
-
-                        </div>
-                    </div>
-                    <label class="fw-bold" for="iletisimTextarea">Mesajınız</label>
-                    <textarea name="" id="iletisimTextarea" cols="30" rows="10"></textarea>
-                </div>
-                <div class="p-2 card col-5 float-end rounded-0"  style="min-height: 30rem;">
-                    <h2>İletişim ve sosyal medya</h2>
-                    <span class="card col-12 text-bg-dark"></span>
-                    <div class="card-body d-flex align-items-center flex-column">
-                        <h3>+90 553 553 5353 </h3>
-
-                        <div class="btn btn-primary" style="margin: 1%;">İnstagram</div>
-                        <div class="btn btn-primary" style="margin: 1%;">Gmail    </div>
-                        <div class="btn btn-primary" style="margin: 1%;">Youtube</div>
-                        <div class="btn btn-primary" style="margin: 1%;">Linkedin</div>
-                        <div class="btn btn-primary" style="margin: 1%;">Github</div>
-
-                    </div>
-                </div>
+    <div class="card col-12 rounded-0 d-flex justify-content-center " style="height: 100vh; width: 100%; background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhmyc_thsFh8xlrYt9_tcJ14j38Kw2JKHDuQ&usqp=CAU);">
+        <div style="border: 1px black solid; background-color: black; width: 100%; height: 100vh; opacity: 0.5; position: absolute;"></div>
+        <div class="float-start col-4" style="border: 1px solid white; background-color: white; height: 100vh; opacity: 0.7; position: absolute;"></div>
+        <div class="container col-4 shadow " style="height: 100vh; position: absolute;">
+            <div class="card-body d-flex flex-column" >
+                <h1 class="fw-bold" style="text-align: center;">Bize ulaşın</h1>
+                <span class="card col-12 text-bg-dark" style="margin-bottom: 40%;"></span>
+                <h5 class="mb-2" >Telefon</h5>
+                <p class="text-wrap">+90 553 769 3079</p>
+                <h5 >Email</h5>
+                <p>bertkrc@gmail.com</p>
+                <h5 >Github</h5>
+                <p>@berka38</p>
             </div>
         </div>
     </div>
