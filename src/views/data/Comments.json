@@ -1,0 +1,24 @@
+[
+    {
+      "Gonderen": "Ali Babayiğit",
+      "Aciklama": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
+      "puan": 5
+
+    },
+    {
+        "Gonderen": "Fırat Baştuğ",
+        "Aciklama": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
+        "puan": 5
+    },
+    {
+        "Gonderen": "Berat karaca",
+        "Aciklama": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
+        "puan": 4
+    },
+    {
+        "Gonderen": "Deneme Adam",
+        "Aciklama": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
+        "puan": 5
+    }
+  ]
+  
