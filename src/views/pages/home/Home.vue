@@ -17,44 +17,53 @@
     <div class="section-b d-flex justify-content-around flex-wrap " >
         <h1>Yorumlar</h1>
         <span class="card col-12 text-bg-dark"></span>
-        <div class="card col-12 d-flex flex-wrap flex-row justify-content-around">
-            <div v-for="i in CommnetData">
-                <div class="p-2 card col-12 shadow" style="min-width: 100%; margin: 3%; min-height: 25em;">
-                    <div class="card-body d-flex align-items-center justify-content-center flex-column">
-                        <p class="d-flex justify-content-center ">{{ i.Aciklama }}</p>
-                        <h5 style="display: block;">{{i.Gonderen}}</h5>
-                    </div> 
+        <div class="card col-12 d-flex flex-wrap flex-row justify-content-around" style="max-width: 50%; margin: 5% 0;" >
+            <div id="carouselExample" class="carousel slide"  style="width: 100%;">
+            <div class="carousel-inner">
+                <div class="carousel-item active"  v-for="i in CommnetData">
+                    <div>
+                        <div class="card">
+                        <div class="card-header">
+                           Verdiği puan, {{ i.puan }} yıldız.
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                            <p>{{ i.Aciklama }}</p>
+                            <footer class="blockquote-footer">by {{i.Gonderen}} </footer>
+                            </blockquote>
+                        </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-
-            
-            
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden" style="color: black; font-size: 4em;">Geri</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="" style="color: black; font-size: 4em;">></span>
+            </button>
+        </div>        
+    </div>
 
     </div>
     <div class="section-c">
         <div class="card text-bg-dark col-12 ">
             <h1 style="text-align: center;">Blog</h1>
             <span class="card col-12"></span>
-            <ul v-for="blogs in BlogData">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-column">
-                    <div class="card col-5 shadow d-flex justify-content-center align-items-center" style="min-width: 70%; height: 30rem; margin: 3%;">
-                    <div class="card col-12  " style="max-width: 100%; min-width: 90%; margin-top: 1%;">
-                        <img class="" style="min-height: 10rem;" :src="blogs.image" >
-                    </div>
-                <div class="card-body">
-                    {{ blogs.BlogYazi }}
-                </div>
-                <div class="card-footer col-12" style="height: 5rem;">
-                    <div class="d-flex align-items-center ">
-                        
-                            <div class="col-10">
-                                <h3 style="font-size: 1em;">by. {{blogs.Gonderen}}</h3>
-                            </div>
-                        </div>
+            <ul v-for="blogs in BlogData" class="d-flex justify-content-center">
+
+                <div class="card text-bg-dark" style=" max-height: 20rem; margin: 2% 0; min-width: 70%; max-width: 60rem;">
+ 
+                    <img style="max-height: 20rem;" :src="blogs.image" class="card-img" alt="...">
+                    <span class="card float-start" style="z-index: 0 ; width: 100%; height: 100%; position: absolute; background: black; opacity: 0.5;"></span>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
+                        <h5 class="card-title fw-bold" style="z-index: 5; font-family:sans-serif; font-size: 1.2em;">{{ blogs.BlogYazi }}</h5>
+                        <p class="card-text fw-bold"><small>by. {{blogs.Gonderen}}</small></p>
                     </div>
                 </div>
-            </div>
             </ul>
         </div>
     </div>

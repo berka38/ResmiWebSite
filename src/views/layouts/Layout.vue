@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-bottom-dark"  data-bs-theme="dark">
         <div class="container-fluid">
-          <router-link class="navbar-brand" to="/testpage"> Karaca</router-link>
+          <router-link class="navbar-brand" to="/testpage"> Logo</router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
