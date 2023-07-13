@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "userName": "Admin",
+        "Status": "Owner"
+    },
+    {
+        "id":2,
+        "userName": "Mert",
+        "Status": "Co-Owner"
+    },
+    {
+        "id":3,
+        "userName": "Adem",
+        "Status": "Moderator"
+    },
+    {
+        "id":4,
+        "userName": "Fırat",
+        "Status": "Moderator"
+    },
+    {
+        "id":5,
+        "userName": "Ela",
+        "Status": "Moderator"
+    }
+]

@@ -29,7 +29,22 @@ const routes = [
             },
 
         ]
+        
     },
+
+    {
+        path: "/admin",
+        redirect: "/dashboard",
+        component: () => import('@/views/layouts/Dashlayout.vue'),
+        children: [
+            {
+                path: "/dashboard",
+                name: "AdminDash",
+                component: () => import('@/views/pages/dashboard/AdminDash.vue'),
+            },
+
+        ]
+    }
     
 ];          
 
