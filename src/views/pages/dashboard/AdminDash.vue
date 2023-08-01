@@ -1,18 +1,16 @@
 <template>
     <div class="container d-flex justify-content-center flex-column">
       <h4 v-if="status === 'loading'">Yükleniyor...</h4>
-      <label class="mt-3" ><h1>Admin Panel</h1></label>
+      <label class="mt-3" ><h1>Kurucu Panel</h1></label>
         <div class="col-12 mt-5 ms-3 d-flex justify-content-around flex-wrap">
 
-
-
-          <div class="card col-3 shadow d-flex p-2 mb-5 me-4" style="border-left: .25rem solid #4e73df !important; min-width: 300px;">
+        <div class="card col-3 shadow d-flex p-2 mb-5 me-4" style="border-left: .25rem solid #028db8  !important; min-width: 300px;">
             <div class="card-body d-flex flex-row justify-content-between">
                 <div >
-                  <h4 class="text-secondary">Günlük Kazanç</h4>
-                  <p>24 $</p>
+                  <h4 class="text-secondary">Toplam görev</h4>
+                  <p>37 Adet</p>
                 </div>
-                <i class="bi bi-cash-coin" style="font-size: 2em;"></i>
+                <i class="bi bi-list-stars" style="font-size: 2em;"></i>
             </div>
         </div>
 
@@ -20,29 +18,28 @@
         <div class="card col-3 shadow d-flex p-2 mb-5 me-4" style="border-left: .25rem solid #1a9707 !important; min-width: 300px;">
             <div class="card-body d-flex flex-row justify-content-between">
                 <div >
-                  <h4 class="text-secondary">Günlük Sipariş</h4>
-                  <p>37 Adet</p>
-                </div>
-                <i class="bi bi-bag" style="font-size: 2em;"></i>
-            </div>
-        </div>
-
-
-        <div class="card col-3 shadow d-flex p-2 mb-5 me-4" style="border-left: .25rem solid #028db8 !important; min-width: 300px;">
-            <div class="card-body d-flex flex-row justify-content-between">
-                <div >
-                  <h4 class="text-secondary">Günlük Satış</h4>
+                  <h4 class="text-secondary">Tamamlanan görev</h4>
                   <p>32 Adet</p>
                 </div>
                 <i class="bi bi-check-all" style="font-size: 2em;"></i>
             </div>
         </div>
 
+        <div class="card col-3 shadow d-flex p-2 mb-5 me-4" style="border-left: .25rem solid #b80202 !important; min-width: 300px;">
+            <div class="card-body d-flex flex-row justify-content-between">
+                <div >
+                  <h4 class="text-secondary">Yetkili Sayısı</h4>
+                  <p>6 Adet</p>
+                </div>
+                <i class="bi bi-shield-check" style="font-size: 2em;"></i>
+            </div>
+        </div>
+
 
 
         </div>
 
-      <div class="card col-12 shadow">
+      <div class="card col-12 shadow p-2">
         <apexchart
         height="500rem"
         width="100%"
@@ -83,7 +80,7 @@
             colors: ["#fff"],
           },
           title: {
-            text: "Sipariş ve satış grafiği",
+            text: "Görev grafiği",
           },
           yaxis: {
             title: {
@@ -128,13 +125,13 @@
           };
           this.series = [
             {
-              name: "Satıldı",
+              name: "Tamamlandı",
               data: formatedUserData.map((user) => {
                 return user.taskComplete;
               }),
             },
             {
-              name: "Sipariş",
+              name: "Tamamlanmadı",
               data: formatedUserData.map((user) => {
                 return user.taskRemain;
               }),

@@ -21,14 +21,17 @@
 
             
           </li>
+          
+          <li style="list-style: none;" class="mb-4">
+            <i class="bi bi-card-checklist me-1"></i>
+
+            <router-link style="text-decoration: none; color: white;" to="superuserstasks">Görevler</router-link>
+          </li>
 
           <li style="list-style: none;" class="mb-4">
-            <i class="bi bi-card-checklist"></i>
+            <i class="bi bi-key me-1"></i>
 
-
-            <a href="" style="text-decoration: none; color: white;">
-              Şiparişler
-            </a>
+            <router-link style="text-decoration: none; color: white;" to="authoritylist">Yetkiler</router-link>
           </li>
         </div>
       </div>

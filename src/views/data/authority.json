@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "Name":"Owner",
+        "authorityCode":"*"
+    },
+    {
+        "id":"2",
+        "Name":"Co-Owner",
+        "authorityCode":"abcdefg"
+    },
+    {
+        "id":"3",
+        "Name":"Admin",
+        "authorityCode":"abcde"
+    },
+    {
+        "id":"4",
+        "Name":"Moderator",
+        "authorityCode":"abc"
+    },
+    {
+        "id":"5",
+        "Name":"İnfluncer",
+        "authorityCode":"b"
+    }
+]

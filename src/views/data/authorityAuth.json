@@ -1,0 +1,39 @@
+[
+    {
+        "id":"1",
+        "name":"Tüm yetkiler"
+    },
+    {
+        "id":"2",
+        "name":"Yeni Görev ekle"
+    },
+    {
+        "id":"3",
+        "name":"Görevleri düzenle/sil"
+    },
+    {
+        "id":"4",
+        "name":"Yeni yetki ekle"
+    },
+    {
+        "id":"5",
+        "name":"Yetkileri düzenle/sil"
+    },
+    {
+        "id":"6",
+        "name":"Yeni yetkili oluştur"
+    },
+    {
+        "id":"7",
+        "name":"Yetkili düzenle/sil"
+    },
+    {
+        "id":"8",
+        "name":"Günlük görev oluştur"
+    },
+    {
+        "id":"9",
+        "name":"Günlük Görev düzenle/sil"
+    }
+
+]

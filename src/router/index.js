@@ -47,6 +47,17 @@ const routes = [
                 name: "superusers",
                 component: () => import('@/views/pages/dashboard/ADadminList.vue'),
             },
+            {
+                path: "/superuserstasks",
+                name: "superuserstasks",
+                component: () => import('@/views/pages/dashboard/AdminTasks.vue'),
+            },
+            {
+                path: "/authoritylist",
+                name: "authoritylist",
+                component: () => import('@/views/pages/dashboard/authoritylist.vue'),
+            },
+
 
         ]
     }
