@@ -42,6 +42,11 @@ const routes = [
                 name: "AdminDash",
                 component: () => import('@/views/pages/dashboard/AdminDash.vue'),
             },
+            {
+                path: "/superusers",
+                name: "superusers",
+                component: () => import('@/views/pages/dashboard/ADadminList.vue'),
+            },
 
         ]
     }

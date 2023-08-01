@@ -1,24 +1,35 @@
 [
     {
-      "Gonderen": "Ali Babayiğit",
-      "BlogYazi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
-      "image":"https://www.volkankey.com/wp-content/uploads/2017/03/site-i%C3%A7i-seo.png"
+        "konu":"Gündem",
+        "Gonderen": "Ali Babayiğit",
+        "BlogYazi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
+        "image":"https://www.volkankey.com/wp-content/uploads/2017/03/site-i%C3%A7i-seo.png",
+        "Tarih":"12/07/2023"
 
     },
     {
+        "konu":"İklim",
         "Gonderen": "Ayşe Babayiğit",
         "BlogYazi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
-        "image":"https://miro.medium.com/v2/resize:fit:424/1*A1Kefx6ITC0dRM9CM8jglQ.png"
+        "image":"https://miro.medium.com/v2/resize:fit:424/1*A1Kefx6ITC0dRM9CM8jglQ.png",
+        "Tarih":"12/07/2023"
+
     },
     {
+        "konu":"Teknoloji",
         "Gonderen": "Arda Babayiğit",
         "BlogYazi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
-        "image":"https://miro.medium.com/v2/resize:fit:1400/1*m3aApGZJn2prETtwTdHgsA.png"
+        "image":"https://miro.medium.com/v2/resize:fit:1400/1*m3aApGZJn2prETtwTdHgsA.png",
+        "Tarih":"12/07/2023"
+
     },
     {
+        "konu":"Yazılım",
         "Gonderen": "Ahmet Babayiğit",
         "BlogYazi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorem?",
-        "image":"https://media.licdn.com/dms/image/C4D12AQE3T0VsskpLqg/article-cover_image-shrink_600_2000/0/1614445864760?e=2147483647&v=beta&t=GJLYrablj4xwkPQB0pNwCIsbbVjVOpBvSFi-FJu3urQ"
+        "image":"https://media.licdn.com/dms/image/C4D12AQE3T0VsskpLqg/article-cover_image-shrink_600_2000/0/1614445864760?e=2147483647&v=beta&t=GJLYrablj4xwkPQB0pNwCIsbbVjVOpBvSFi-FJu3urQ",
+        "Tarih":"12/07/2023"
+
     }
     
     

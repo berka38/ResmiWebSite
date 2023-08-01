@@ -48,25 +48,45 @@
         </div>        
     </div>
 
+
     </div>
-    <div class="section-c">
         <div class="card text-bg-dark col-12 ">
             <h1 style="text-align: center;">Blog</h1>
             <span class="card col-12"></span>
-            <ul v-for="blogs in BlogData" class="d-flex justify-content-center">
+            <div class="row mb-2 col-12 d-flex mt-5">
+                <ul v-for="blogs in BlogData" class="d-flex justify-content-center">
+                    <div class="col-md-6 ">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative card text-bg-secondary">
+                            <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary-emphasis">{{ blogs.konu }}</strong>
+                            <h3 class="mb-0">{{ blogs.Gonderen }}</h3>
+                            <div class="mb-1 text-body-secondary">{{ blogs.Tarih }}</div>
+                            <p class="card-text mb-auto">{{ blogs.BlogYazi }}</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Devam Et..
+                                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                            </a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" :src="blogs.image" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <!-- <ul v-for="blogs in BlogData" class="d-flex justify-content-center">
 
-                <div class="card text-bg-dark" style=" max-height: 20rem; margin: 2% 0; min-width: 70%; max-width: 60rem;">
+                <div class="card text-bg-dark" style=" max-height: 20rem; margin: 2% 0; min-width: 50%; max-width: 60em;">
  
-                    <img style="max-height: 20rem;" :src="blogs.image" class="card-img" alt="...">
+                    <img style="max-height: 20rem;" :src="blogs.image"  class="card-img" alt="...">
                     <span class="card float-start" style="z-index: 0 ; width: 100%; height: 100%; position: absolute; background: black; opacity: 0.5;"></span>
                     <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
                         <h5 class="card-title fw-bold" style="z-index: 5; font-family:sans-serif; font-size: 1.2em;">{{ blogs.BlogYazi }}</h5>
                         <p class="card-text fw-bold"><small>by. {{blogs.Gonderen}}</small></p>
                     </div>
                 </div>
-            </ul>
+            </ul> -->
         </div>
-    </div>
     
 </template>
 
@@ -81,11 +101,14 @@
         setup() {
             const CommnetData = ref(Commentsdata);
             const BlogData = ref(Blogsdata)
-
             return{
                 CommnetData,
-                BlogData
+                BlogData,
+
+            
+
             }
-        }
-    })
+
+            }
+        })
 </script>
