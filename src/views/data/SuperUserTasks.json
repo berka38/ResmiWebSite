@@ -46,6 +46,12 @@
         "userName": "Ela",
         "task":"Bugün 15 Görev yap.",
         "completed":false
+    },
+    {
+        "id":8,
+        "userName": "Ela",
+        "task":"Bugün 20 üye çek.",
+        "completed":false
     }
 
 ]

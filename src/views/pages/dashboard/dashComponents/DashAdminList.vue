@@ -36,7 +36,7 @@
         <label class="text-body-secondary mb-1">Yetki seçiniz</label>
         <select class="col-12 form-select mb-3">
             <option value="-1" selected>Yetki Seçiniz</option>
-            <option v-for="authority in authorityData">{{ authority.Name }}</option>
+            <option v-for="authority in authorityData">{{ authority.id }}</option>
         </select>
         <div class="d-flex flex-column mb-3">
           <label class="text-body-secondary mb-1">Kullanıcı adı giriniz</label>

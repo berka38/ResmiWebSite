@@ -1,39 +1,54 @@
 [
     {
-        "id":"1",
-        "name":"Tüm yetkiler"
+        "id":"2",
+        "key":"-",
+        "name":"Misafir"
     },
     {
         "id":"2",
-        "name":"Yeni Görev ekle"
+        "key":"*",
+        "name":"Tüm yetkiler"
     },
     {
         "id":"3",
-        "name":"Görevleri düzenle/sil"
+        "key":"g",
+        "name":"Görevleri görüntüle"
     },
     {
         "id":"4",
-        "name":"Yeni yetki ekle"
+        "key":"ge",
+        "name":"Yeni Görev ekle"
     },
     {
         "id":"5",
-        "name":"Yetkileri düzenle/sil"
+        "key":"gd",
+        "name":"Görevleri düzenle/sil"
     },
     {
         "id":"6",
-        "name":"Yeni yetkili oluştur"
+        "key":"y",
+        "name":"yetkileri görüntüle"
+    },
+    {
+        "id":"6",
+        "key":"ye",
+        "name":"Yeni yetki ekle"
     },
     {
         "id":"7",
-        "name":"Yetkili düzenle/sil"
+        "key":"yd",
+        "name":"Yetkileri düzenle/sil"
     },
     {
         "id":"8",
-        "name":"Günlük görev oluştur"
+        "key":"yye",
+        "name":"Yeni yetkili oluştur"
     },
     {
         "id":"9",
-        "name":"Günlük Görev düzenle/sil"
+        "key":"yyd",
+        "name":"Yetkili düzenle/sil"
     }
+
 
 ]

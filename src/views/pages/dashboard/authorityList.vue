@@ -37,15 +37,22 @@
       </div>
       <div class="modal-body">
         <div class="d-flex flex-column mb-3">
-          <label class="text-body-secondary mb-1">İsim</label>
+          <label class="text-body-secondary mb-1">Yetki adı</label>
             <input type="text" class="form-control" placeholder="Yetki adı">
         </div>
-        <div>
-          <label class="text-body-secondary mb-1">İsim ve soyisim giriniz</label>
-          <select class="form-select" multiple aria-label="Multiple select example">
-            <option v-for="authorityAuthData in authorityAuth" value="1">{{ authorityAuthData.name }}</option>
-
+        <div >
+          <label class="text-body-secondary mb-1">Yetki izinleri</label>
+          <select class="form-select" multiple aria-label="Multiple select example" v-model="AuthKey">
+            
+            <option v-for="authorityAuthData in authorityAuth" :value="authorityAuthData.key" >{{ authorityAuthData.name }}</option>
           </select>
+
+          <div class="mt-3">
+            <label class="text-body-secondary mb-1">Yetki Kodları</label>
+            <input type="text" class="form-control" :placeholder="AuthKey" disabled>
+
+          </div>
+
         </div>
       </div>
       <div class="modal-footer">
@@ -58,6 +65,10 @@
 
 <script setup>
 import authorityData from '../../data/authority.json';
-import authorityAuth from '../../data/authorityAuth.json'
+import authorityAuth from '../../data/authorityAuth.json';
+import {ref} from 'vue';
+
+const AuthKey = ref()
+
 
 </script>

@@ -23,5 +23,10 @@
         "id":"5",
         "Name":"İnfluncer",
         "authorityCode":"b"
+    },
+    {
+        "id":"6",
+        "Name":"Guest",
+        "authorityCode":"-"
     }
 ]
