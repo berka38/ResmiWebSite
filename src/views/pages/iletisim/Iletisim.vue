@@ -8,15 +8,15 @@
                 <span class="card col-12 text-bg-dark" style="margin-bottom: 40%;"></span>
                 <div>
                     <h1 class="mb-2" >Telefon</h1>
-                    <h3 class="text-wrap">+90 553 769 3079</h3>
+                    <h3 class="text-wrap">+90 55* *** ** **</h3>
                 </div>
                 <div style="margin: 5% 0;">
                     <h1 >Email</h1>
-                    <h3>bertkrc@gmail.com</h3>
+                    <h3>****@gmail.com</h3>
                 </div>
                 <div>
                     <h1>Github</h1>
-                    <h3>@berka38</h3>
+                    <h3>@******</h3>
                 </div>
             </div>
         </div>

@@ -28,11 +28,11 @@
           <div class="row">
             <div class="col-lg-3 mb-3">
               <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
-                <span class="fs-5">Karaca Yazılım</span>
+                <span class="fs-5">*** Yazılım</span>
               </a>
               <ul class="list-unstyled small">
-                <li class="mb-2">Web site tasarımcısı <a href="https://instagram.com/bertkrc">Berat Karaca</a> .</li>
-                <li class="mb-2">Karaca yazılım</li>
+                <li class="mb-2">Web site tasarımcısı <a href="https://instagram.com">**** ****</a> .</li>
+                <li class="mb-2">*** yazılım</li>
               </ul>
             </div>
             <div class="col-8 col-lg-2 offset-lg-1 mb-3">

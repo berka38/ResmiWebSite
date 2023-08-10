@@ -50,12 +50,14 @@
       ></apexchart>
       </div>
     </div>
+    <button @click="dadaasdas"></button>
   </template>
   
   <script>
   import VueApexCharts from "vue3-apexcharts";
   import TaskData from '../../data/Chart.json'
   import TaskUsers from '../../data/SuperUsers.json'
+  import axios from 'axios'
   
   export default {
     name: "AdminPanel",
@@ -66,7 +68,15 @@
       apexchart: VueApexCharts,
     },
     data() {
+      const dadaasdas = () => {
+        axios
+        .get('https://graph.facebook.com/v17.0/8451692846?fields=id%2Cname&access_token=EAATpbi9GZAToBO9L18ZCfRRuZBJOpFVTo5HdDAuAk1WYYZAUlOHE5ZBt1YnvH6a7E8aOyzQOhvZA05RawuJcEIRiu0AhNMQXpWftc1bYgtHV6ZCfGlzZCCKdEyA2eUeVKGgzqKZC0RtdteoxXbMzjdaRfNvZAGOxcZBCjIdXZCVUP2NvkNfYsmyJNv19lOQZAcaSi8vcmAVIV51cZBHz5LI6TBOYQPEQZDZD')
+        .then((response) => {
+          console.log(response)
+        })
+      }
       return {
+        dadaasdas,
         status: "loading",
         series: null,
         chartOptions: {
@@ -87,6 +97,7 @@
               text: undefined,
             },
           },
+          
           tooltip: {
             y: {
               formatter: function (val) {
